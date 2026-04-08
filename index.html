@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consolas Y Más - ¡Donde el juego nunca termina!</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Consolas Y Más - ¡Donde el juego nunca termina!</h1>
+    </header>
+
+    <main>
+        <section id="Echa un vistazo al futuro">
+            <h2>Echa un vistazo al futuro</h2>
+            <div class="contenedor-columnas">
+                <video src="videos/video1.mp4" controls></video>
+                <video src="videos/video2.mp4" controls></video>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5kcdYYiKsQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestras Consolas</h2>
+            <div class="contenedor-columnas">
+                <article>
+                    <img src="img/producto1.png" alt="Consola PlayStation 5">
+                </article>
+                <article>
+                    <img src="img/producto2.png" alt="Consola Nintendo Switch">
+                </article>
+                <article>
+                    <img src="img/producto3.png" alt="Consola Xbox">
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto-seccion">
+            <h2>Contacto</h2>
+            <form action="gracias.html" method="GET" id="formulario">
+                
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Empresa de Videojuegos Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
